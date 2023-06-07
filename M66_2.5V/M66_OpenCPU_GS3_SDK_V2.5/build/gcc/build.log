@@ -1,0 +1,1235 @@
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+custom/config/custom_sys_cfg.c:83:1: warning: excess elements in struct initializer [enabled by default]
+custom/config/custom_sys_cfg.c:83:1: warning: (near initialization for 'wtdCfg') [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from custom/config/sys_config.c:37:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+In file included from custom/config/sys_config.c:67:0:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+In file included from custom/config/sys_config.c:82:0:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+ril/src/ril_atResponse.c: In function 'Ql_RIL_AT_SetErrCode':
+ril/src/ril_atResponse.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_audio.c:40:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+ril/src/ril_audio.c: In function 'ATResponse_AUD_handler':
+ril/src/ril_audio.c:399:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_bluetooth.c:44:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+ril/src/ril_bluetooth.c: In function 'OnURCHandler_BTDisconn':
+ril/src/ril_bluetooth.c:1531:10: warning: unused variable 'profileId' [-Wunused-variable]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from ril/src/ril_dtmf.c:37:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_ftp.c:39:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_http.c:40:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_init.c:38:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from ril/src/ril_location.c:37:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+ril/src/ril_location.c: In function 'ATResponse_GetLocation_Ex_Handler':
+ril/src/ril_location.c:78:11: warning: unused variable 'p2' [-Wunused-variable]
+ril/src/ril_location.c:77:11: warning: unused variable 'p1' [-Wunused-variable]
+ril/src/ril_location.c: In function 'OnURCHandler_QCELLLocation':
+ril/src/ril_location.c:176:11: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+ril/src/ril_location.c:177:9: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_location.c:38:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from ril/src/ril_location2.c:40:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from ril/src/ril_mqtt.c:38:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+ril/src/ril_mqtt.c: In function 'RIL_MQTT_QMTSUB':
+ril/src/ril_mqtt.c:179:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:179:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:183:11: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:183:11: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:185:3: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:185:3: warning: pointer targets in passing argument 1 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:185:3: warning: pointer targets in passing argument 2 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:189:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:189:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:190:5: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:190:5: warning: pointer targets in passing argument 1 of 'Ql_RIL_SendATCmd' differ in signedness [-Wpointer-sign]
+In file included from ril/inc/ril_mqtt.h:37:0,
+                 from ril/src/ril_mqtt.c:33:
+ril/inc/ril.h:187:12: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c: In function 'RIL_MQTT_QMTUNS':
+ril/src/ril_mqtt.c:239:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:239:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:243:11: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:243:11: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:245:3: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:245:3: warning: pointer targets in passing argument 1 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:245:3: warning: pointer targets in passing argument 2 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:249:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:249:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:251:5: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:251:5: warning: pointer targets in passing argument 1 of 'Ql_RIL_SendATCmd' differ in signedness [-Wpointer-sign]
+In file included from ril/inc/ril_mqtt.h:37:0,
+                 from ril/src/ril_mqtt.c:33:
+ril/inc/ril.h:187:12: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c: In function 'ATResponse_QMTPUB_handler':
+ril/src/ril_mqtt.c:302:8: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:309:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:314:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:319:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:299:9: warning: unused variable 'i' [-Wunused-variable]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_network.c:40:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+ril/src/ril_network.c: In function 'ATRsp_COPS_Handler':
+ril/src/ril_network.c:501:14: warning: unused variable 'str' [-Wunused-variable]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+ril/src/ril_ntp.c: In function 'OnURCHandler_NTPCMD':
+ril/src/ril_ntp.c:50:4: warning: passing argument 1 of 'callback_NTPCMD' discards 'const' qualifier from pointer target type [enabled by default]
+ril/src/ril_ntp.c:50:4: note: expected 'char *' but argument is of type 'const char *'
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_sim.c:40:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from ril/src/ril_sms.c:47:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_system.c:40:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+ril/src/ril_system.c: In function 'QSDK_Get_Strlen':
+ril/src/ril_system.c:458:1: warning: control reaches end of non-void function [-Wreturn-type]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from ril/src/ril_urc.c:40:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_OPEN':
+ril/src/ril_urc.c:654:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_CONN':
+ril/src/ril_urc.c:690:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_SUB':
+ril/src/ril_urc.c:725:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+ril/src/ril_urc.c:729:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+ril/src/ril_urc.c:734:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_PUB':
+ril/src/ril_urc.c:775:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_TUNS':
+ril/src/ril_urc.c:804:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_STATE':
+ril/src/ril_urc.c:830:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_CLOSE':
+ril/src/ril_urc.c:858:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_DISC':
+ril/src/ril_urc.c:888:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+example/Pooja_Power_V_0.0.3.c:48:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from example/Pooja_Power_V_0.0.3.c:54:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+example/Pooja_Power_V_0.0.3.c:195:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:195:9: warning: (near initialization for 'test_topic_SUB_array[0]') [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:199:8: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:199:8: warning: (near initialization for 'test_topic_PUB_array[0]') [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:203:10: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:203:10: warning: (near initialization for 'test_topic_BUF_array[0]') [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:479:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:480:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:481:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:482:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:494:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:499:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:500:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:502:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:507:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:547:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:557:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'proc_main_task':
+example/Pooja_Power_V_0.0.3.c:612:2: warning: pointer targets in passing argument 1 of 'Ql_FS_CheckDir' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:476:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:616:3: warning: pointer targets in passing argument 1 of 'Ql_FS_CreateDir' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:431:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:620:4: warning: 'return' with a value, in function returning void [enabled by default]
+example/Pooja_Power_V_0.0.3.c:639:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:737:11: warning: pointer targets in passing argument 3 of 'SEND_SMS' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:490:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:742:11: warning: pointer targets in passing argument 3 of 'SEND_SMS' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:490:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:752:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:766:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:780:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:796:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:811:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:824:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:837:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:924:7: warning: implicit declaration of function 'SYSTEM_INITIALIZE' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c:955:7: warning: pointer targets in passing argument 7 of 'RIL_MQTT_QMTPUB' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:73:0:
+ril/inc/ril_mqtt.h:289:5: note: expected 'u8 *' but argument is of type 'char *'
+example/Pooja_Power_V_0.0.3.c:982:28: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+example/Pooja_Power_V_0.0.3.c:982:55: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+example/Pooja_Power_V_0.0.3.c:982:57: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+example/Pooja_Power_V_0.0.3.c:569:9: warning: unused variable 'wtdid' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:568:6: warning: unused variable 'writenLen' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:567:7: warning: variable 'space' set but not used [-Wunused-but-set-variable]
+example/Pooja_Power_V_0.0.3.c:565:6: warning: unused variable 'readenLen' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:564:6: warning: unused variable 'handle' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:563:5: warning: unused variable 'temp_ch' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:562:14: warning: unused variable 'j' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:562:9: warning: unused variable 'i' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'proc_subtask1':
+example/Pooja_Power_V_0.0.3.c:1026:2: warning: implicit declaration of function 'TIMER_INIITIALIZE_SUBTASK2' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c:1047:4: warning: multi-line comment [-Wcomment]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:1157:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'SET_SUB_TOPIC_DETAILS':
+example/Pooja_Power_V_0.0.3.c:1165:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1166:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1160:6: warning: unused variable 'pointer' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'READ_DATA_FROM_UFS':
+example/Pooja_Power_V_0.0.3.c:1178:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1179:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1181:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1182:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1183:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1184:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1185:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1186:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1187:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1188:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1189:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1190:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1191:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1192:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1193:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1194:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1195:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1215:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1215:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1216:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1216:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1217:9: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1221:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1221:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1222:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1222:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1223:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1232:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1232:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1233:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1233:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1234:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1238:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1238:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1239:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1239:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1240:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1244:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1244:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1245:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1245:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1246:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1250:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1250:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1251:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1251:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1252:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1256:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1256:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1257:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1257:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1258:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1262:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1262:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1263:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1263:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1264:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1268:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1268:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1269:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1269:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1270:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1274:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1274:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1275:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1275:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1276:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1280:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1280:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1281:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1281:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1282:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1286:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1286:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1287:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1287:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1288:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1292:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1292:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1293:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1293:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1294:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1298:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1298:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1299:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1299:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1300:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1304:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1304:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1305:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1305:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1306:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1310:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1310:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1311:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1311:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1312:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1316:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1316:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1317:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:1317:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1318:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1324:5: warning: pointer targets in passing argument 1 of 'Ql_FS_Check' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:375:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1331:2: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1355:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1355:4: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1363:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1379:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1390:8: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1400:9: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1410:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:1414:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:1414:11: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:1442:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1442:4: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1475:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1475:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1491:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1491:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1503:4: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1513:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1513:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1530:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1530:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1540:4: warning: pointer targets in passing argument 1 of 'PORT_VALUE_CAL' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:486:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1549:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1549:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1561:5: warning: pointer targets in passing argument 1 of 'CONVERT_TIME_BUFFER_TO_SECONDS_VALUE' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:487:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1571:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1571:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1579:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1592:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1578:32: warning: unused variable 'r' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:1603:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1603:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1626:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1626:4: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1636:5: warning: pointer targets in passing argument 1 of 'PORT_VALUE_CAL' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:486:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1691:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1706:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:1709:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:1766:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1766:4: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1779:5: warning: pointer targets in passing argument 1 of 'strtok' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:44:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1782:6: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c:1775:11: warning: unused variable 'r' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:1832:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1832:4: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1844:5: warning: pointer targets in passing argument 1 of 'strtok' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:44:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1839:11: warning: unused variable 'r' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:1899:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1899:4: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1910:5: warning: pointer targets in passing argument 1 of 'strtok' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:44:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1906:11: warning: unused variable 'r' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:1963:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1963:4: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1974:5: warning: pointer targets in passing argument 1 of 'strtok' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:44:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:1970:11: warning: unused variable 'r' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:1177:6: warning: unused variable 'filename' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:1175:9: warning: unused variable 'j' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'WRITE_DATA_TO_UFS':
+example/Pooja_Power_V_0.0.3.c:2035:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2040:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2045:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2050:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2055:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2060:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2065:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2070:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2075:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2080:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2085:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2090:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2095:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2100:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2105:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2110:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2115:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2120:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2135:3: warning: pointer targets in passing argument 2 of 'Ql_FS_Write' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:223:5: note: expected 'u8 *' but argument is of type 'char *'
+example/Pooja_Power_V_0.0.3.c:2030:26: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+example/Pooja_Power_V_0.0.3.c:2028:6: warning: variable 'position' set but not used [-Wunused-but-set-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:2163:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:2227:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:2276:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:2276:6: warning: conflicting types for 'TIMER_INIITIALIZE_SUBTASK2' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:1026:2: note: previous implicit declaration of 'TIMER_INIITIALIZE_SUBTASK2' was here
+example/Pooja_Power_V_0.0.3.c:2303:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:2303:6: warning: conflicting types for 'SYSTEM_INITIALIZE' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:924:7: note: previous implicit declaration of 'SYSTEM_INITIALIZE' was here
+example/Pooja_Power_V_0.0.3.c: In function 'SYSTEM_INITIALIZE':
+example/Pooja_Power_V_0.0.3.c:2306:6: warning: unused variable 'iRet' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:2371:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'FOTA_upgrade':
+example/Pooja_Power_V_0.0.3.c:2397:3: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2373:6: warning: unused variable 'ret' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:2414:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'MODBUS_WRITE_QUERIES':
+example/Pooja_Power_V_0.0.3.c:2421:79: warning: unknown escape sequence: '\M' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:2426:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2426:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2427:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2427:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:2442:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'MODBUS_READ_QURIES':
+example/Pooja_Power_V_0.0.3.c:2500:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2500:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2500:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2500:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c: In function 'Callback_UART_Hdlr_Main_Port':
+example/Pooja_Power_V_0.0.3.c:2610:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/Pooja_Power_V_0.0.3.c:2610:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/Pooja_Power_V_0.0.3.c:2619:46: warning: unknown escape sequence: '\D' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:2620:55: warning: unknown escape sequence: '\D' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:2622:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2628:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2634:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2721:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2746:8: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:2024:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2758:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2791:8: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:2024:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2803:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2821:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2830:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2845:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2877:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2879:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2881:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2883:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2887:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2887:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2887:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2887:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2894:9: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:2024:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2903:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2917:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2917:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2917:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2917:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:2923:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2973:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2980:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2990:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:2999:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3008:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3017:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3026:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3056:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3063:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3072:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3081:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3111:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3121:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:3125:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:3125:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:3127:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:3145:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:3145:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:3154:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3164:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:3193:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/Pooja_Power_V_0.0.3.c:2590:6: warning: unused variable 'ret' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:2589:7: warning: unused variable 'my_char' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'Callback_UART_Hdlr_Modbus_Port':
+example/Pooja_Power_V_0.0.3.c:3245:6: warning: pointer targets in passing argument 1 of 'MODBUS_RESPONSE_CHECK' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:493:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3215:2: warning: enumeration value 'EVENT_UART_READY_TO_WRITE' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3215:2: warning: enumeration value 'EVENT_UART_FE_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3215:2: warning: enumeration value 'EVENT_UART_RI_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3215:2: warning: enumeration value 'EVENT_UART_DCD_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3215:2: warning: enumeration value 'EVENT_UART_DTR_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3214:11: warning: unused variable 'q' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3213:7: warning: unused variable 'setting_flag' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3210:6: warning: unused variable 'ret' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3208:11: warning: unused variable 'lenn' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'Callback_UART_Hdlr_ETHERNET_PORT':
+example/Pooja_Power_V_0.0.3.c:3262:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/Pooja_Power_V_0.0.3.c:3262:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/Pooja_Power_V_0.0.3.c:3264:9: warning: enumeration value 'EVENT_UART_READY_TO_WRITE' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3264:9: warning: enumeration value 'EVENT_UART_FE_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3264:9: warning: enumeration value 'EVENT_UART_RI_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3264:9: warning: enumeration value 'EVENT_UART_DCD_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3264:9: warning: enumeration value 'EVENT_UART_DTR_IND' not handled in switch [-Wswitch]
+example/Pooja_Power_V_0.0.3.c:3260:17: warning: unused variable 'p' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3260:8: warning: unused variable 'q' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3259:7: warning: unused variable 'setting_flag' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3258:6: warning: unused variable 'ret' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3257:7: warning: unused variable 'my_char' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3256:11: warning: unused variable 'lenn' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3256:9: warning: unused variable 'k' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3256:6: warning: unused variable 'i' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'Hdlr_RecvNewSMS':
+example/Pooja_Power_V_0.0.3.c:3304:2: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/Pooja_Power_V_0.0.3.c:3473:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3474:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3485:2: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3490:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3500:5: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3523:6: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:2024:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3540:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3547:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3557:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3566:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3575:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3584:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3593:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3618:6: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/Pooja_Power_V_0.0.3.c:3633:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3640:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3649:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3658:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3683:6: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/Pooja_Power_V_0.0.3.c:3694:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3703:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3722:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3745:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3763:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:3301:25: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+example/Pooja_Power_V_0.0.3.c:3300:26: warning: unused variable 'p1' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3299:5: warning: unused variable 'strBuf' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3298:6: warning: unused variable 'writeBuffer' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3297:6: warning: unused variable 'handle' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3296:6: warning: unused variable 'position' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3295:6: warning: unused variable 'readenLen' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3294:6: warning: unused variable 'writenLen' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3293:5: warning: unused variable 'time1_rcv' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3292:5: warning: unused variable 'time_rcv' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3291:5: warning: unused variable 'port_rcv2' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3290:5: warning: unused variable 'port_rcv' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3289:5: warning: unused variable 'ip_rcv2' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3288:5: warning: unused variable 'ip_rcv' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3287:5: warning: unused variable 'apn_rcv' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3285:6: warning: unused variable 'uMsgRef' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3284:36: warning: unused variable 'j' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'SMS_Initialize':
+example/Pooja_Power_V_0.0.3.c:3798:9: warning: unused variable 'nTotal' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3797:9: warning: unused variable 'nUsed' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3796:9: warning: unused variable 'nCurrStorage' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'GPRS_TCP_Program':
+example/Pooja_Power_V_0.0.3.c:4057:4: warning: 'return' with a value, in function returning void [enabled by default]
+example/Pooja_Power_V_0.0.3.c:4115:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:4115:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4119:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:4119:4: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4121:4: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4129:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:4129:4: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4131:4: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4109:107: warning: unused variable 'COMMUNICATION_ERR_PORT3' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:4109:68: warning: unused variable 'COMMUNICATION_ERR_PORT2' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:4105:11: warning: unused variable 'i' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:4383:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'Callback_Socket_Read':
+example/Pooja_Power_V_0.0.3.c:4532:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4532:5: warning: pointer targets in passing argument 2 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4559:42: warning: unknown escape sequence: '\i' [enabled by default]
+example/Pooja_Power_V_0.0.3.c: In function 'mqtt_recv':
+example/Pooja_Power_V_0.0.3.c:4637:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4644:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4644:4: warning: pointer targets in passing argument 2 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c: In function 'COMPARE_TIMESTAMP_FOR_SUB_MSG':
+example/Pooja_Power_V_0.0.3.c:4694:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:4694:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:4699:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:4699:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:4714:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:4714:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:4717:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c: In function 'DEVICE_PARAMETER_CONFIGURATION':
+example/Pooja_Power_V_0.0.3.c:4748:2: warning: pointer targets in passing argument 2 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4759:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4779:4: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4779:4: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:31:8: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4780:4: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:2024:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:4991:3: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/Pooja_Power_V_0.0.3.c: In function 'TIMER_HANDLER_SUBTASK1':
+example/Pooja_Power_V_0.0.3.c:5024:7: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5024:7: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5079:10: warning: implicit declaration of function 'SendEvent2SubTask' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c:4997:6: warning: unused variable 'iRet' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'TIMER_HANDLER':
+example/Pooja_Power_V_0.0.3.c:5201:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/Pooja_Power_V_0.0.3.c:5219:10: warning: pointer targets in passing argument 2 of 'RIL_NW_SetAPN' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:59:0:
+ril/inc/ril_network.h:170:6: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5210:13: warning: unused variable 'cgreg' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5253:9: warning: pointer targets in passing argument 2 of 'RIL_MQTT_QMTOPEN' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:73:0:
+ril/inc/ril_mqtt.h:192:5: note: expected 'u8 *' but argument is of type 'char *'
+example/Pooja_Power_V_0.0.3.c:5289:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5290:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5291:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5291:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5291:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5291:10: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5292:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5301:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5302:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:5422:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'STORE_TIME_TO_MEMORY':
+example/Pooja_Power_V_0.0.3.c:5432:6: warning: assignment makes integer from pointer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:5425:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+example/Pooja_Power_V_0.0.3.c:5424:11: warning: unused variable 'pTime' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:5446:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:5465:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'GET_Present_Time':
+example/Pooja_Power_V_0.0.3.c:5473:6: warning: assignment makes integer from pointer without a cast [enabled by default]
+example/Pooja_Power_V_0.0.3.c:5496:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:5496:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5472:6: warning: unused variable 'present_min' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5471:8: warning: unused variable 'temp' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5471:5: warning: unused variable 'i' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5469:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'ATResponse_Sync_NetworkTime_handler':
+example/Pooja_Power_V_0.0.3.c:5509:3: warning: pointer targets in passing argument 1 of 'Set_LocalTime' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:484:6: note: expected 'u8 *' but argument is of type 'char *'
+example/Pooja_Power_V_0.0.3.c: In function 'Set_LocalTime':
+example/Pooja_Power_V_0.0.3.c:5532:7: warning: unused variable 'add_gmt_flag' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'PORT_VALUE_CAL':
+example/Pooja_Power_V_0.0.3.c:5650:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:5655:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c: In function 'Callback_Location':
+example/Pooja_Power_V_0.0.3.c:5714:20: warning: unused variable 'test1' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5714:7: warning: unused variable 'test' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5713:31: warning: unused variable 'k' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5713:26: warning: unused variable 'i' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5713:18: warning: unused variable 'string2' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5713:9: warning: unused variable 'string1' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'STORE_DATA_STRING_TO_MEMORY':
+example/Pooja_Power_V_0.0.3.c:5859:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Check' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:375:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5865:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5876:3: warning: pointer targets in passing argument 2 of 'Ql_FS_Write' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:223:5: note: expected 'u8 *' but argument is of type 'char *'
+example/Pooja_Power_V_0.0.3.c:5881:3: warning: implicit declaration of function 'STORE_DATA_COUNT_TO_MEMORY' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:5889:1: warning: return type defaults to 'int' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:5889:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:5900:1: warning: return type defaults to 'int' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:5900:1: warning: conflicting types for 'CREATE_AND_STORE_MODBUS_DATA' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:478:6: note: previous declaration of 'CREATE_AND_STORE_MODBUS_DATA' was here
+example/Pooja_Power_V_0.0.3.c: In function 'CREATE_AND_STORE_MODBUS_DATA':
+example/Pooja_Power_V_0.0.3.c:5912:2: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:5912:2: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5916:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:5916:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5918:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5925:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:5925:3: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5927:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5906:106: warning: unused variable 'COMMUNICATION_ERR_PORT3' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5906:67: warning: unused variable 'COMMUNICATION_ERR_PORT2' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5902:10: warning: unused variable 'i' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5902:6: warning: unused variable 'ret' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:5941:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'SEND_STORE_DATA':
+example/Pooja_Power_V_0.0.3.c:5959:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5985:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5988:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5996:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6000:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:6007:6: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6031:3: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/Pooja_Power_V_0.0.3.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:5947:9: warning: unused variable 'j' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:5947:7: warning: unused variable 'i' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'MODBUS_RESPONSE_CHECK':
+example/Pooja_Power_V_0.0.3.c:6072:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6072:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6076:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6084:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6084:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6086:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6129:4: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c:6129:18: warning: incompatible implicit declaration of built-in function 'pow' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:6059:6: warning: unused variable 'ret' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'SEPARATE_MODBUS_DATA':
+example/Pooja_Power_V_0.0.3.c:6223:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6225:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6229:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6229:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6232:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6232:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6238:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6238:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6217:10: warning: unused variable 'i2' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:6243:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c:6288:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/Pooja_Power_V_0.0.3.c: In function 'CAPTURE_DATA_FOR_PAYLOAD':
+example/Pooja_Power_V_0.0.3.c:6320:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:6320:4: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:6336:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:6336:4: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:6348:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:6348:4: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:6299:8: warning: unused variable 'FLOAT_DATA_OF_METER' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'PAYLOAD_FORMATION_FOR_SENDING':
+example/Pooja_Power_V_0.0.3.c:6378:2: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/Pooja_Power_V_0.0.3.c:6378:2: note: expected 'char *' but argument is of type 'u8 *'
+example/Pooja_Power_V_0.0.3.c:6372:106: warning: unused variable 'COMMUNICATION_ERR_PORT3' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:6372:67: warning: unused variable 'COMMUNICATION_ERR_PORT2' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:6403:6: warning: conflicting types for 'SendEvent2SubTask' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:5079:10: note: previous implicit declaration of 'SendEvent2SubTask' was here
+example/Pooja_Power_V_0.0.3.c: In function 'SendEvent2SubTask':
+example/Pooja_Power_V_0.0.3.c:6405:9: warning: unused variable 'iTmp' [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c: In function 'HEX_TO_FLOAT':
+example/Pooja_Power_V_0.0.3.c:6455:2: warning: implicit declaration of function 'floor' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c:6455:14: warning: incompatible implicit declaration of built-in function 'floor' [enabled by default]
+example/Pooja_Power_V_0.0.3.c:6455:31: warning: incompatible implicit declaration of built-in function 'pow' [enabled by default]
+example/Pooja_Power_V_0.0.3.c: In function 'CREATE_AND_SEND_MODBUS_DATA':
+example/Pooja_Power_V_0.0.3.c:6572:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6572:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c: In function 'CALCULATE_CRC':
+example/Pooja_Power_V_0.0.3.c:6633:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c:6633:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/Pooja_Power_V_0.0.3.c: In function 'MODBUS_CRC16_CHECK':
+example/Pooja_Power_V_0.0.3.c:6663:2: warning: implicit declaration of function 'eat_trace' [-Wimplicit-function-declaration]
+example/Pooja_Power_V_0.0.3.c: At top level:
+example/Pooja_Power_V_0.0.3.c:185:11: warning: 'test_data' defined but not used [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:187:11: warning: 'test_topic' defined but not used [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:322:11: warning: 'm_Read_Buffer_fota' defined but not used [-Wunused-variable]
+example/Pooja_Power_V_0.0.3.c:3252:13: warning: 'Callback_UART_Hdlr_ETHERNET_PORT' defined but not used [-Wunused-function]
+example/Pooja_Power_V_0.0.3.c:519:13: warning: 'HTTP_Program' declared 'static' but never defined [-Wunused-function]
+example/Pooja_Power_V_0.0.3.c:5369:6: warning: 'callback_onTimer' defined but not used [-Wunused-function]
+example/Pooja_Power_V_0.0.3.c:5725:13: warning: 'HTTP_RcvData' defined but not used [-Wunused-function]
+example/Pooja_Power_V_0.0.3.c:6640:12: warning: 'MODBUS_CRC16_CHECK' defined but not used [-Wunused-function]
+example/Pooja_Power_V_0.0.3.c: In function 'STORE_DATA_COUNT_TO_MEMORY':
+example/Pooja_Power_V_0.0.3.c:5898:1: warning: control reaches end of non-void function [-Wreturn-type]
+example/Pooja_Power_V_0.0.3.c: In function 'GPRS_TCP_Program':
+example/Pooja_Power_V_0.0.3.c:4138:3: warning: 'Data_Packet_Length' may be used uninitialized in this function [-Wmaybe-uninitialized]
+example/Pooja_Power_V_0.0.3.c: In function 'PAYLOAD_FORMATION_FOR_SENDING':
+example/Pooja_Power_V_0.0.3.c:6400:2: warning: 'Data_Packet_Length' may be used uninitialized in this function [-Wmaybe-uninitialized]
+example/Pooja_Power_V_0.0.3.c: In function 'TIMER_HANDLER':
+example/Pooja_Power_V_0.0.3.c:5693:9: warning: 'pdpCntxtId' may be used uninitialized in this function [-Wmaybe-uninitialized]
+example/Pooja_Power_V_0.0.3.c:5683:9: note: 'pdpCntxtId' was declared here
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from custom/fota/src/fota_ftp.c:3:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+custom/fota/src/fota_ftp.c: In function 'FTP_FotaMain':
+custom/fota/src/fota_ftp.c:44:9: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Callback_OnDownload':
+custom/fota/src/fota_ftp.c:83:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c:82:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Program':
+custom/fota/src/fota_ftp.c:124:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Callback_OnDownload':
+custom/fota/src/fota_ftp.c:315:35: warning: 'retValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_ftp.c:198:10: note: 'retValue' was declared here
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from custom/fota/inc/fota_main.h:37,
+                 from custom/fota/src/fota_http.c:11:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+custom/fota/src/fota_http.c:46:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/fota/src/fota_http.c: In function 'HTTP_IsHttpServer':
+custom/fota/src/fota_http.c:63:5: warning: implicit declaration of function 'Ql_StrToUpper' [-Wimplicit-function-declaration]
+custom/fota/src/fota_http.c: In function 'HTTP_FotaMain':
+custom/fota/src/fota_http.c:94:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:94:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:95:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:95:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:96:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:96:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:124:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:124:15: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+custom/fota/src/fota_http.c:128:9: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:77:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: At top level:
+custom/fota/src/fota_http.c:216:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/fota/src/fota_http.c: In function 'http_GetImagefilefromServer':
+custom/fota/src/fota_http.c:219:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_SendHttpGetHead':
+custom/fota/src/fota_http.c:274:5: warning: pointer targets in passing argument 2 of 'Ql_strncpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:276:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:296:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:306:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:316:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:326:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:336:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:266:9: warning: unused variable 'retValue' [-Wunused-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpHead':
+custom/fota/src/fota_http.c:359:10: warning: unused variable 'entryfunctionexe' [-Wunused-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpChunkedBody':
+custom/fota/src/fota_http.c:500:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'Httpcallback_socket_read':
+custom/fota/src/fota_http.c:638:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'Callback_GetIpByHostName':
+custom/fota/src/fota_http.c:724:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_TimerCallback':
+custom/fota/src/fota_http.c:746:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpBody':
+custom/fota/src/fota_http.c:576:31: warning: 'fileDLpresentReport' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_http.c:607:40: warning: 'retValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from custom/fota/src/fota_http_code.c:5:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+custom/fota/src/fota_http_code.c: In function 'DecodeHttpResult':
+custom/fota/src/fota_http_code.c:72:13: warning: pointer targets in passing argument 1 of 'Ql_atoi' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:40:8: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c: In function 'http_DecodeURL':
+custom/fota/src/fota_http_code.c:144:9: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c:144:9: warning: pointer targets in passing argument 1 of 'http_ip_check' differ in signedness [-Wpointer-sign]
+custom/fota/src/fota_http_code.c:49:6: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c:189:13: warning: pointer targets in passing argument 1 of 'Ql_atoi' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:40:8: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c:100:10: warning: unused variable 'ip_validity' [-Wunused-variable]
+custom/fota/src/fota_http_code.c:98:8: warning: unused variable 'ipadd' [-Wunused-variable]
+custom/fota/src/fota_http_code.c: In function 'DecodeHttpLine':
+custom/fota/src/fota_http_code.c:296:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:306:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:306:9: warning: pointer targets in passing argument 1 of 'Ql_atoi' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:40:8: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c: In function 'http_DecodeHeader':
+custom/fota/src/fota_http_code.c:375:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:381:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:361:28: warning: unused variable 'httpContext_p' [-Wunused-variable]
+custom/fota/src/fota_http_code.c:358:9: warning: unused variable 'startpos' [-Wunused-variable]
+<command-line>:0:18: warning: ISO C99 requires whitespace after the macro name [enabled by default]
+In file included from include/ql_system.h:780:0,
+                 from include/ql_uart.h:38,
+                 from custom/fota/inc/fota_main.h:37,
+                 from custom/fota/src/fota_main.c:10:
+custom/config/custom_task_cfg.h:105:25: warning: extra tokens at end of #ifdef directive [enabled by default]
+custom/fota/src/fota_main.c: In function 'Ql_FOTA_StartUpgrade':
+custom/fota/src/fota_main.c:33:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
